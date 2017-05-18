@@ -31,7 +31,7 @@ public static final float DEFAULT_RADIUS = 150;
 ```
 
 再次运行可以看到
-![Alt text](https://raw.githubusercontent.com/chenupt/BezierDemo/master/pic/1.png)
+![Alt text](https://raw.githubusercontent.com/huangkaibo/BezierDemo/master/pic/1.png)
 也就是说,这段代码绘制了起点和终点处的两个圆圈
 
 ---
@@ -53,7 +53,7 @@ paint.setStyle(Paint.Style.FILL_AND_STROKE);
 paint.setStyle(Paint.Style.STROKE);
 ```
 也就是去掉内部填充,只显示边界
-![Alt text](https://raw.githubusercontent.com/chenupt/BezierDemo/master/pic/2.png)
+![Alt text](https://raw.githubusercontent.com/huangkaibo/BezierDemo/master/pic/2.png)
 可以看出左右两侧绘制的圆
 另外,发现拉扯的效果并没有那么神奇,只是对于中间这个不知道什么形状的东西填充颜色而已
 
@@ -70,7 +70,7 @@ paint.setStyle(Paint.Style.STROKE);
 ```
 
 去掉了圆的绘制
-![Alt text](https://raw.githubusercontent.com/chenupt/BezierDemo/master/pic/3.png)
+![Alt text](https://raw.githubusercontent.com/huangkaibo/BezierDemo/master/pic/3.png)
 
 ---
 
@@ -125,7 +125,7 @@ canvas.drawText("R", array.get(10), array.get(11), paint);
 ```
 
 效果如下
-![Alt text](https://raw.githubusercontent.com/chenupt/BezierDemo/master/pic/4.png)
+![Alt text](https://raw.githubusercontent.com/huangkaibo/BezierDemo/master/pic/4.png)
 不太清晰,不过可以看出来
 左下A: 对应X1,Y1
 右下B: 对应X2,Y2
@@ -158,7 +158,7 @@ path.lineTo(x1, y1);
 有个tip_anim.xml文件
 
  
-![Alt text](https://raw.githubusercontent.com/chenupt/BezierDemo/master/pic/5.png)
+![Alt text](https://raw.githubusercontent.com/huangkaibo/BezierDemo/master/pic/5.png)
 就是定义了一个逐帧动画,把5个图片轮流播放,产生小红点的消失效果动画
 
 //移走小红点后的逐帧动画
@@ -178,7 +178,7 @@ exploredImageView.setImageResource(R.drawable.tip_anim);
 ---
 
 另一端就是一个贴图
-![Alt text](https://raw.githubusercontent.com/chenupt/BezierDemo/master/pic/6.png)
+![Alt text](https://raw.githubusercontent.com/huangkaibo/BezierDemo/master/pic/6.png)
 放在这里
 //这是99+小红点
 tipImageView.setImageResource(R.drawable.skin_tips_newmessage_ninetynine);
